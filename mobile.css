@@ -1,0 +1,157 @@
+@media screen and (max-width: 992px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .sm-column {
+        flex-direction: column;
+    }
+
+    .item-center {
+        align-items: center;
+    }
+
+    /* General */
+    .container {
+        max-width: 720px;
+        width: 100%;
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+
+    .slider {
+        clip-path: none;
+    }
+
+    /* product  */
+    .product {
+        clip-path: none;
+        height: auto;
+    }
+
+    .productDetails {
+        padding: 3rem;
+    }
+
+    .fMail {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+
+    .container {
+        max-width: 540px;
+        width: 100%;
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .sm-column {
+        flex-direction: column;
+    }
+
+    .item-center {
+        align-items: center;
+    }
+
+    .navTop {
+        flex-direction: column;
+    }
+
+    .navItem {
+        margin-bottom: 1rem;
+    }
+
+    .navBottom {
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .sliderTitle {
+        display: none;
+    }
+
+    .sliderImg {
+        width: 80%;
+    }
+
+    .sliderBG {
+        width: 32rem;
+        height: 32rem;
+    }
+
+    .buyButton {
+        top: 9px;
+    }
+
+    .sliderPrice {
+        top: 225px;
+        background: lightgray;
+        border-radius: 1rem;
+        left: 17px;
+    }
+    /* payment  */
+    .payment{
+        max-width: 90%;;
+    }
+
+    .feature {
+        margin-bottom: 3rem;
+    }
+
+    .productImg {
+        width: 90%;
+    }
+
+    .newSeason {}
+
+    .nsItem {
+        padding: 3rem 0;
+    }
+
+    footer {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem;
+        align-items: center;
+        justify-items: center;
+        padding: 0;
+    }
+
+    .footer-col {
+        margin-top: 2rem;
+    }
+
+    .social-footer {
+        grid-column: 1/4;
+        display: grid;
+        place-content: center;
+        background: lightgray;
+        width: 100%;
+        padding: 2rem 0;
+    }
+}
